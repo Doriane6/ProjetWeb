@@ -1,0 +1,134 @@
+main{
+  
+
+    /* background: linear-gradient(rgb(34, 34, 83), black);
+     */
+     
+    }
+.haut{
+    background-color: #1f2039;
+    padding-top: 30px;
+    /* margin-top: 10px; */
+}
+a :hover{
+    text-decoration: underline;
+}
+    body{
+         /* background: linear-gradient(#866479, #351c46);  */
+         font-family: 'Montserrat', sans-serif;
+ }
+ .bas{
+    background-color: #1f2039;
+    padding-bottom: 30px;
+ }
+p{
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    
+}
+label{
+    color: white;
+}
+h1{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+    color: #a5b4fc;
+    
+}
+#ameliorer{
+    height: 6em;
+    width: 50em;
+}
+#lapp{
+    display: inline-block;
+    margin-left: 43%;
+    padding: 10px 50px 10px;
+    margin-top: 50px;
+    background: #a5b4fc;
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+a{
+    font-size: 18px;
+    text-decoration: none;
+    margin: 10px;
+    color: black; 
+}
+
+#lapp:hover{
+    opacity: 0.8;
+}
+
+header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black ;
+      
+}
+a:hover{
+   color: black;
+}
+.icones{
+display: flex;
+   justify-content: center;
+}
+footer{
+    background-color: #1d262d;;
+}
+.boutton{
+    display: inline;
+    background: linear-gradient(#534242, #131368);
+    border: none;
+    color: white;
+    margin-left: 90%;
+}
+img{
+    margin: 20px;
+    width: 40px;
+}
+.i{
+   color: #131368;
+}
+.text{
+  
+}
+h2{
+    text-align: center;
+    font-size: 25px;
+}
+.info{
+    text-align: center;
+}
+@media screen and (max-width: 600px) {
+    p,a,label {
+        font-size: 10px;
+    }
+ #lapp{
+    
+    margin-left: 35%;
+    padding: 4px 20px 4px;
+    margin-top: 30px;
+    background: #a5b4fc;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    }
+    a{
+        font-size: 10px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .haut{
+        padding-top: 2px;
+    }
+    #ameliorer{
+        height: 3em;
+        width: 10em;
+}
+img{
+    margin: 10px;
+    width: 20px;
+}
+}

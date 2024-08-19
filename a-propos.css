@@ -1,0 +1,224 @@
+p{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    
+    color: white;
+    font-size:18px;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    /* background: linear-gradient(#534242, #131368); */
+    padding-top: 10px;
+    padding-bottom: 15px;
+    color: black ;
+}
+ h1{
+    color: #a5b4fc;
+    font-size: 25px;
+}
+h2{
+    text-align: center;
+}
+.contacter{
+    background-color: #1f2039;
+    color: white;
+    padding-top: 20px;
+}
+label{
+    font-size: 16px;
+    margin-left: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    
+}
+.description{
+    background-color: #1f2039;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+a{
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+    font-size:18px
+}
+a:hover{
+    text-decoration: underline;
+}
+footer{  
+    background-color: #1d262d;;   
+}
+.icones{
+    display: flex;
+    justify-content: center;
+}
+ img{
+    margin: 20px;
+    width: 40px;
+}
+h1{
+    text-align: center;
+}
+.images{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 150px 150px;
+    gap: 5px;
+}
+.ci1,.ci2,.ci3,.ci4, .ci5{
+    width: 200px;
+    height: 150px;
+    
+}
+.image{
+    text-align: center;
+}
+#ci :hover{
+    opacity: 0.5;
+}
+.photo-hover {
+    position: absolute;
+    top: 20px;
+    left: 9%;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+  }
+  .lien-conteneur-photo {
+    position: relative;
+    height: 170px;
+    width: 220px;
+  }
+  
+  .lien-conteneur-photo:hover .photo-hover {
+    display: flex;
+    
+  }
+/* Contacter */
+.np{
+    
+    border-radius: 50px;
+}
+.np1{
+    margin-left: 5%;
+    height: 30px;
+    border-radius: 50px;
+}
+.np2{
+    margin-left: 27%;
+}
+.contact{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+
+}
+.np,.np1{
+    height: 30px;
+    width: 20em;
+}
+.envoi{
+    margin-left: 40%;
+    padding: 10px 50px 10px;
+    margin-top: 20px;
+    background: #a5b4fc;
+    border-radius: 50px;
+    margin-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+.centre{
+    color: black;
+}
+@media screen and (max-width: 600px) {
+    p,a,label {
+        font-size: 10px;
+    }
+ 
+    a{
+        font-size: 10px;
+    }
+    h1{
+        font-size: 18px;
+    }
+    .centre{
+        font-size: 18px;
+    }
+    .ci1,.ci2,.ci3,.ci4, .ci5{
+        width: 100px;
+        height: 50px; }
+
+    .images{
+            justify-content: center;
+            grid-template-columns: 200px ;
+            grid-template-rows: 100px ;  
+            gap: 2px;          
+        }
+    a{
+        font-size: 10px;
+            text-decoration: none;
+            margin: 2px;
+            color: black;
+        }
+        .np1{
+            margin-left: 5%;
+            height: 15px;
+        }
+    
+        .contact{
+            font-size: 10px;   
+        }
+        .np,.np1{
+            height: 20px;
+            width: 10em;
+        }
+        .envoi{
+            margin-left: 25%;
+            padding: 4px 15px 4px;
+            margin-top: 20px;
+            background: #a5b4fc;
+            margin-bottom: 20px;
+        }
+        #screen{
+            display: none;
+        }
+        h2{
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        .photo-hover {
+            position: absolute;
+            top: 10px;
+            left: 9%;
+            right: 0;
+            justify-content: center;
+            font-size: 10px;
+            text-align: center;
+            
+          }
+          .lien-conteneur-photo {
+            position: relative;
+            height: 60px;
+            width: 110px;
+          }
+          
+          .lien-conteneur-photo:hover .photo-hover {
+            display: flex;
+          }
+        .description{
+            background-color: #1f2039;
+            padding-bottom: 20px;
+            padding-top: 20px;
+        }
+        img{
+            margin: 10px;
+            width: 20px;
+} }
